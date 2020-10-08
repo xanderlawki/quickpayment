@@ -1,0 +1,37 @@
+.main-nav {
+    background-color: #fff;
+}
+
+.main-nav-grid {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    flex: 0 0 80%;
+}
+
+.nav-header {
+    display: grid;
+   
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    
+    
+}
+
+.item-1 {
+    display: flex;
+    flex: 0 0 100px;
+    justify-self: end;
+}
+.item-2 {
+    display: flex;
+    flex: 0 0 100px;
+    justify-self: end; 
+}
+
