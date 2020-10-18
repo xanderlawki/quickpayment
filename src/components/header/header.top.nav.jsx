@@ -10,7 +10,7 @@ export const Topnav = ()=> (
             </div>
             <nav className="nav-header">
                 <ul>
-                <li className="item-1">Contact us</li>
+                <li className="item-1">Contact Us</li>
                 <li className="item-2">FAQ</li>
                 </ul>
             </nav>

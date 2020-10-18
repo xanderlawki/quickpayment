@@ -1,0 +1,19 @@
+.top-title {
+    padding: 0;
+    background-image: linear-gradient(to bottom, #0089c5 0%, #005479 100%);
+    color: #fff;
+    display: flex;
+    justify-self: end;
+    
+    font-size: 12px;
+    text-transform: capitalize;
+    
+}
+
+.top-title-head {
+    margin-right: 8px;
+    width: 100%;
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: 300;
+    text-align: end;
+}

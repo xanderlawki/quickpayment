@@ -1,15 +1,20 @@
 import React from 'react';
 import {Topnav} from './header.top.nav';
 import {HeaderMain} from './header.main';
-import {Sidebar} from './side-bar.nav';
+import {SidebarwithRouter} from './side-bar.nav';
+import {TopHeader} from './top.header';
 import './header.css'
 
-export const Header =()=> (
+export const Header =(props)=> {
+    console.log(props)
+   return (
     <header>
+        <TopHeader/>
         <Topnav/>
         <HeaderMain/>
-        <Sidebar/>
+        <SidebarwithRouter/>
 
 
     </header>
 )
+    }

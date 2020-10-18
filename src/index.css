@@ -5,8 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(67, 67, 231);
-  background-image: url('./img/bg-image-1.jpg');
+  
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.123)), url('./img/bg-image-1.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

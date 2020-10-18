@@ -8,5 +8,41 @@
 
 .header_main-header {
     font-size: 40px;
-    word-spacing: 2px;
+    animation-name: moveInLeft;
+    animation-duration: 2s;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+
+
 }
+
+.header_main-text {
+    animation-name: moveInRight;
+    animation-duration: 2s;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+@keyframes moveInLeft {
+    0% {
+      transform: translateX(-10rem);
+      opacity: 0; }
+    80% {
+      transform: translateX(2rem); }
+    100% {
+      transform: translate(0);
+      opacity: 1; } }
+  
+  @keyframes moveInRight {
+    0% {
+      transform: translate(10rem);
+      opacity: 0; }
+    80% {
+      transform: translateX(-0.1rem); }
+    100% {
+      transform: translate(0);
+      opacity: 1; } }

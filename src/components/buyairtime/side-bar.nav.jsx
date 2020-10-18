@@ -4,21 +4,20 @@ import phone from '../../img/smartphone.png';
 import bill from '../../img/bill.png';
 import transfer from '../../img/money-transfer.png';
 import card from '../../img/credit-card.png';
-import { withRouter } from "react-router-dom"
 
 
-export const Sidebar = ({history, match})=>  {
+export const Sidebar = ()=>  {
     
   return  (
    
     <div className="side__bar">
     <ul className="side__bar-menu">
    
-        <li className="item1">
+        <li className="item1 airtime">
         <div className="logo">
         <img src={phone} className="sidebar__image"/>
         </div>
-        <p className="item_list"   onClick={()=> history.push(`${match.url}buyairtime`)}>Buy Airtime</p>
+        <p className="item_list">Buy Airtime</p>
         </li>
         <li className="item1">
         <div className="logo">
@@ -45,4 +44,3 @@ export const Sidebar = ({history, match})=>  {
 )
   }
 
- export  const SidebarwithRouter = withRouter(Sidebar)

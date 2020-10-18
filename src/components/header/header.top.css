@@ -4,16 +4,18 @@
 
 .main-nav-grid {
     display: flex;
+    
 }
 
 .logo {
     display: flex;
-    flex: 0 0 80%;
+    flex: 0 0 50%;
 }
 
 .nav-header {
-    display: grid;
-   
+    
+   flex: 0 0 20%;
+   justify-self: end;
 
 }
 
