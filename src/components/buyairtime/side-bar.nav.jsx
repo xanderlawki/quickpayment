@@ -29,7 +29,7 @@ export const Sidebar = ()=>  {
         <div className="logo">
         <img src={transfer} className="sidebar__image"/>
         </div>
-        <p className="item_list">Transfers</p>
+        <p className="item_list">Shopping Mall</p>
         </li>
         <li className="item1">
         <div className="logo">

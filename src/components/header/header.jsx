@@ -13,8 +13,6 @@ export const Header =(props)=> {
         <Topnav/>
         <HeaderMain/>
         <SidebarwithRouter/>
-
-
     </header>
 )
     }

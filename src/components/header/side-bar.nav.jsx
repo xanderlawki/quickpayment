@@ -24,13 +24,13 @@ export const Sidebar = ({history, match})=>  {
         <div className="logo">
         <img src={bill} className="sidebar__image"/>
         </div>
-        <p className="item_list">Pay Bills</p> 
+        <p className="item_list" onClick={()=> history.push(`${match.url}paybills`)}>Pay Bills</p> 
         </li>
         <li className="item1">
         <div className="logo">
         <img src={transfer} className="sidebar__image"/>
         </div>
-        <p className="item_list">Transfers</p>
+        <p className="item_list">Shopping Mall</p>
         </li>
         <li className="item1">
         <div className="logo">

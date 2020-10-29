@@ -1,0 +1,9 @@
+.side__menu {
+    display: block;
+    position: absolute;
+    top: 16%;
+    left: 120px;
+    background-image: linear-gradient(to bottom, #0089c5 0%, #005479 100%);
+    z-index: -1;
+    padding: 5px 15px;
+}
